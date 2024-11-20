@@ -117,5 +117,7 @@ typedef struct {
 
 #define bool_to_bit(x) ((uint)!!(x))
 
+#define field_width(f) (f ## _MSB + 1 - f ## _LSB)
+
 #endif
 #endif
